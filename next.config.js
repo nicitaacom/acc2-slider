@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   images: {
+  images: {
     remotePatterns: [
       {
         protocol: "https",
         hostname: "ambgxbbsgequlwnbzchr.supabase.co",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "i.pinimg.com",
         port: "",
       },
     ],
